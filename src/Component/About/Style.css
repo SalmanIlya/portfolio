@@ -1,0 +1,44 @@
+.about-div{
+    width: 100%;
+    background-image: url("../../../public/image/1.jpg") !important;
+    position: fixed;
+    z-index: 0;
+    background-size: cover;
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)); 
+background-repeat: no-repeat;
+    height: 100vh;
+color: white;
+
+}
+.about-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    
+}
+.text-box {
+    margin-top: 150px;
+    font-size: 30px !important;
+}
+
+.ptag{
+    width: 350px;
+    font-size: 20px;
+}
+.txt{
+    text-align: justify;
+}
+.btn-1{
+    background: #D6B981;
+    color: white;
+    border: none;
+    height: 3rem; 
+    width: 10rem;
+}
+.text-about-me{
+    font-size: 1rem;
+}
+.icon-green{
+    color: rgb(34, 245, 34) !important;
+}
