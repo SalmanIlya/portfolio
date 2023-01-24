@@ -1,0 +1,241 @@
+.heading1{
+    font-size: 3rem;
+    /* width: 0rem !important; */
+    padding-top: 50rem !important;
+    
+}
+.head1{
+    font-size: 22px !important;
+}
+.text-box{
+    
+}
+.div{
+    width: 100%;
+    background-image: url("../../../public/image/1.jpg") !important;
+    position: fixed;
+    z-index: 0;
+    background-size: cover;
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)); 
+background-repeat: no-repeat;
+    height: 100vh;
+color: white;
+font-weight: 900;
+}
+.com-name{
+    font-size: 1.4rem;
+    margin:5px;
+}
+.text-cc{
+    color:#D6B981;
+}
+.img{
+    position: relative;
+    width: 32rem;
+    height: 42rem;
+    margin-bottom: 3rem;
+}
+.text-p{
+text-align: justify;
+font-size: 1.4rem;
+}
+.bx{
+    height: auto;
+    width: 37rem;
+    position: absolute;
+    margin-top: 33rem;
+    margin-left: 18rem;
+    background:#D6B981;
+    color: white;
+    padding: 1rem;
+    font-size:1.2rem;
+
+}
+.t-box{
+    height: 500px;
+    margin-top: '10px';
+}
+.tst-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icons{
+    color: #D6B981;
+}
+.contact-div{
+    width: 100%;
+    background-image: url("../../../public/image/1.jpg") !important;
+    position: fixed;
+    z-index: 0;
+    background-size: cover;
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)); 
+background-repeat: no-repeat;
+    height: 100vh;
+color: white;
+}
+.icon-box{
+    margin:1rem ;
+}
+.icon-1{
+    color: rgb(82, 82, 232);
+    font-size: 2.5rem;
+}
+.icon-2{
+    color: rgb(233, 9, 84);
+    font-size: 2.5rem;
+
+}
+.icon-3{
+    color: rgb(9, 173, 233);
+    font-size: 2.5rem;
+
+}
+.icon-4{
+    color: rgb(59, 59, 196);
+    font-size: 2.5rem;
+
+}
+.icon-5{
+    color:rgb(10, 246, 10);
+    /* margin-top: px !important; */
+    font-size: 2.5rem;
+
+}
+@media only screen and (max-width: 1024px){
+        .container-1{
+        width: 100% !important;
+        
+    }
+    .icon-box{
+        margin:0.9rem ;
+    }
+    .img{
+        position: relative;
+        width: 28rem;
+        height: 37rem;
+        margin-bottom: 3rem;
+    }
+    .bx{
+        height: auto;
+        width: 34rem;
+        position: absolute;
+        margin-top: 29rem;
+        margin-left: 18rem;
+        background:#D6B981;
+        color: white;
+        padding: 1rem;
+        font-size:1.1rem;
+    
+    }
+    .text-p{
+        text-align: justify;
+        font-size: 1.3rem;
+        }
+    .heading1{
+        font-size: 2.5rem;  
+    }
+    .com-name{
+        font-size: 1.3rem;
+        margin:4.5px;
+    }
+
+}
+@media only screen and (max-width: 991px){
+    .container{
+        width:950 px !important;
+    }
+    .img{
+        position: relative;
+        width: 27rem;
+        height: 36rem;
+        /* margin-bottom: rem; */
+    }
+    .heading1{
+        font-size: 2.4rem;  
+    }
+    .com-name{
+        font-size: 1.2rem;
+        margin:4.4px;
+    }
+    .text-p{
+        text-align: justify;
+        font-size: 1.2rem;
+        }
+        .icon-box{
+            margin:0 !important;
+        }
+}
+@media only screen and (max-width: 900px){
+    .container{
+        width:950 px !important;
+    }
+    .img{
+        position: relative;
+        width: 25rem;
+        height: 37rem;
+        /* margin-bottom: rem; */
+    }
+    .heading1{
+        font-size: 2.4rem;  
+    }
+    .com-name{
+        font-size: 1.2rem;
+        margin:4.4px;
+    }
+    .text-p{
+        text-align: justify;
+        font-size: 1rem;
+        }
+        .icon-box{
+            margin:0 !important;
+        } 
+}
+@media only screen and (max-width: 805px){
+    .container{
+        width:950 px !important;
+    }
+    .img{
+        position: relative;
+        width: 22rem;
+        height: 35rem;
+        /* margin-bottom: rem; */
+    }
+    .bx{
+        height: auto;
+        width: 30rem;
+        position: absolute;
+        margin-top: 28rem;
+        margin-left: 15rem;
+        background:#D6B981;
+        color: white;
+        padding: 1rem;
+        font-size:1rem;
+    
+    }
+    .heading1{
+        font-size: 2.4rem;  
+    }
+    .com-name{
+        font-size: 1.2rem;
+        margin:4.4px;
+    }
+    .text-p{
+        text-align: justify;
+        font-size: 0.9rem;
+        }
+        .icon-box{
+            margin:0 !important;
+            padding: 0;
+        } 
+
+}
+@media only screen and (max-width: 600px){}
+@media only screen and (max-width: 500px){}
+@media only screen and (max-width: 400px){}
+@media only screen and (max-width: 300px){}
+@media only screen and (max-width: 200px){}
+
+
