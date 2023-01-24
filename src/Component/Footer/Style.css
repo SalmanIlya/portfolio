@@ -1,0 +1,26 @@
+.footer{
+    height: 300px;
+    align-items: center !important;
+    background-color: rgb(245, 238, 238);
+    text-align: center;
+    padding: 1rem;
+}
+.icon{
+    font-size: 35px !important;
+    margin: 1rem;
+}
+.box{
+    width: 700px;
+    margin-left: 280px;
+}
+.icon1{
+    color: rgb(209, 18, 18);
+}
+.icon2{
+    color: rgb(49, 80, 236);
+}
+.box{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
