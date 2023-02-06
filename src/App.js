@@ -8,9 +8,16 @@ import Navbar from './Component/Navbar/Navbar'
 import PageNotFound from './PageNotFound'
 import "bootstrap/dist/css/bootstrap.min.css"
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import {Helmet, HelmetProvider} from "react-helmet-async"
 const App = () => {
   return (
     <div>
+      <HelmetProvider>
+<Helmet>
+  <title>
+    Farhan webside :Home page
+  </title>
+</Helmet>
       <BrowserRouter>
       <Navbar/>
       <main>
@@ -24,6 +31,8 @@ const App = () => {
       </main>
       <Footer/>
       </BrowserRouter>
+      </HelmetProvider>
+
     </div>
   )
 }
